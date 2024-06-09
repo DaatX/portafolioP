@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- iconos -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+    <!-- css estilo -->
+    <link rel="stylesheet" href="css/estilo.css" />
+
+    <title>Resumen CV Yonathan Sanchez</title>
+</head>
+
+<body>
+    <!-- cabecera -->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav_logo">Daat</a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_lista">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class="bx bx-home nav_icono"></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#perfil" class="nav_link">
+                            <i class="bx bx-user nav_icono"></i>Perfil
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#educacion" class="nav_link">
+                            <i class="bx bx-book nav_icono"></i>Educacion
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#habilidad" class="nav_link">
+                            <i class="bx bx-receipt nav_icono"></i>Habilidad
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#experiencia" class="nav_link">
+                            <i class="bx bx-briefcase-alt nav_icono"></i>Experiencia
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#certificados" class="nav_link">
+                            <i class="bx bx-award nav_icono"></i>Certificados
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#referencia" class="nav_link">
+                            <i class="bx bx-link-external nav_icono"></i>Referencias
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="bx bx-grid-alt"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- Todos los elementos dentro de este div, se generan en pdf -->
+        <div class="resumen" id="area-cv">
+            <div class="resumen_der">
+                <!-- home -->
+
+                <section class="home" id="home">
+                    <div class="home_container" id="section bd-grid">
+                        <div class="home_datos bd-grid">
+                            <img src="img/yo.png" alt="" class="home_img" />
+
+                            <h1 class="home_titulo">Yonathan <b> Sanchez </b></h1>
+                            <h3 class="home_profesion">Desarrollador Front End</h3>
+
+                            <!-- boton de descargar CV -->
+                            <div>
+                                <a download="" href="pdf/CV.pdf" class="home_boton-movil">Descargar</a>
+                            </div>
+                        </div>
+
+                        <div class="home_direccion bd-grid">
+                            <span class="home_informacion">
+                        <i class="bx bx-map home_icono"></i> Av. Presidente Medina
+                        Caracas - Venezuela
+                        </span>
+
+                        <span class="home_informacion">
+                        <i class="bx bx-envelope home_icono"></i>
+                        daatfrontend@gmail.com
+                        </span>
+
+                                    <span class="home_informacion">
+                        <i class="bx bx-phone home_icono"></i> +58 4163250137
+                        </span>
+                                </div>
+                            </div>
+
+                <!-- Botón de cambio de tema -->
+
+                <i class='bx bx-moon cambio-tema' title="tema" id="tema-boton"></i>
+
+                        
+    
+                <!-- Botón para generar y descargar el pdf. Disponible para escritorio. -->
+
+                <i class='bx bx-download generador-pdf' title="Generador PDF" id="resumen-boton"></i>
+
+                </section>
+
+
+            <!--========== SOCIAL ==========-->
+            
+                <section class="social section">
+                    <h2 class="section-title">Social</h2>
+
+                    <div class="social_container bd-grid">
+
+                         <a href="https://daatx.github.io/portafolioP/" target="_blank" class="social_link">
+                            <i class='bx bx-world social_icono'></i> Portafolio
+                        </a>
+
+                        <a href="https://www.youtube.com/channel/UCms3xj0KOVyR6kA147uJsjw" target="_blank" class="social_link">
+                            <i class='bx bxl-youtube social_icono'></i> @DaatCode
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/yonathan-sanchez/" target="_blank" class="social_link">
+                            <i class='bx bxl-linkedin social_icono'></i> Yonathan Sanchez
+                        </a>
+                    </div>
+
+                </section>
+            
+
+            <!--========== PROFILE ==========-->
+            <section class="perfil section" id="perfil">
+                <h2 class="section-title"> Perfil </h2>
+
+                <p class="perfil_descripcion">Centrado en el área del desarrollo de Front End. Cada proyecto tiene un aprendizaje y mi pasión es entender ese algo que le falta al proyecto y llevarlo un paso mas allá</p>
+
+            </section>
+
+            <!--========== EDUCATION ==========-->
+            <section class="educacion section" id="educacion">
+
+                <h2 class="section-title">Educacion</h2>
+
+                <div class="educacion_container bd-grid">
+
+                    <div class="educacion_contenido">
+                        <div class="educacion_tiempo">
+                            <span class="educacion_rounder"></span>
+                            <!-- <span class="educacion_line"></span> -->
+                        </div>
+
+                        <div class="educacion_datos bd-grid">
+                            <h3 class="educacion_titulo">TSU en Informatica</h3>
+                            <span class="educacion_estudio">Universidad Bolivariana de Venezuela</span>
+                            <span class="educacion_year">2019-2024</span>
+                        </div>
+                    </div>
+                </div iv>
+            </section>
+
+            <!--========== SKILLS  ==========-->
+            <section class="habilidad section" id="habilidad">
+
+                <h2 class="section-title">Habilidad</h2>
+
+                <div class="habilidad_contenido bd-grid">
+                    <ul class="habilidad_datos">
+                        <li class="habilidad_nombre">
+                            <span class="habilidad_circulo"></span> <i class='bx bxl-html5' ></i> /  <i class='bx bxl-css3' ></i>
+                        </li>
+                        <li class="habilidad_nombre">
+                            <span class="habilidad_circulo"></span> <i class='bx bxl-javascript'></i>
+                        </li>
+                        <li class="habilidad_nombre">
+                            <span class="habilidad_circulo"></span> <i class='bx bxl-php'></i>
+                        </li>
+                        <li class="habilidad_nombre">
+                            <span class="habilidad_circulo"></span> <i class='bx bxs-data'></i>MySQL
+                        </li>
+                    </ul>
+
+                    <ul class="habilidad_datos">
+                        <li class="habilidad_nombre">
+                            <span class="habilidad_circulo"></span> <i class='bx bxl-git'></i>
+                        </li>
+                         <li class="habilidad_nombre">
+                            <span class="habilidad_circulo"></span> <i class='bx bxl-react'></i>
+                        </li>
+                        <!-- <li class="habilidad_nombre"> 
+                            <span class="habilidad_circulo"></span>
+                        </li>
+                        <li class="habilidad_nombre">
+                            <span class="habilidad_circulo"></span>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+            </section>
+
+
+
+
+            <div class="resumen_izq">
+                <!--========== EXPERIENCIA  ==========-->
+                <section class="experiencia" id="experiencia">
+
+                    <h2 class="section-title">Experiencia</h2>
+
+                    <div class="experiencia_container bd-grid">
+                        <div class="experiencia_contenido">
+                            <div class="experiencia_tiempo">
+                                <span class="experiencia_rounder"></span>
+                                <span class="experiencia_line"></span>
+                            </div>
+
+                            <div class="experiencia_datos bd-grid">
+                                <h3 class="experiencia_titulo">Desarrollador Front End</h3>
+                                <span class="experiencia_compania">Desde 2022 a presente | IPASME</span>
+                                <p class="experiencia_descripcion">Me especializo en crear interfaces de usuario atractivas y funcionales. Mi experiencia incluye el uso de HTML, CSS y JavaScript para construir soluciones web responsivas. Colaboro con equipos multidisciplinarios para traducir requisitos de diseño en código eficiente. Mi pasión es mejorar la experiencia del usuario a través de la tecnología.</p>
+                            </div>
+                        </div>
+
+                        <div class="experiencia_contenido">
+                            <div class="experiencia_tiempo">
+                                <span class="experiencia_rounder"></span>
+                                <!-- <span class="experiencia_line"></span> -->
+                            </div>
+
+                            <div class="experiencia_datos bd-grid">
+                                <h3 class="experiencia_titulo">Soporte Tecnico</h3>
+                                <span class="experiencia_compania">Desde 2017 a 2022 | ALCADIA DE CARACAS</span>
+                                <p class="experiencia_descripcion">he brindado asistencia y resolución de problemas relacionados con tecnología. Mi experiencia incluye la atención a usuarios, diagnóstico de fallas, instalación y configuración de software, y mantenimiento de equipos. Soy apasionado por ayudar a las personas a aprovechar al máximo la tecnología en su entorno laboral.</p>
+                            </div>
+                        </div>
+
+                        <!-- <div class="experiencia_contenido">
+                            <div class="experiencia_tiempo">
+                                <span class="experiencia_rounder"></span>
+                                 <span class="experiencia_line"></span>
+                            </div>
+
+                            <div class="experiencia_datos bd-grid">
+                                <h3 class="experiencia_titulo">Soporte Tecnico</h3>
+                                <span class="experiencia_compania">Desde 2012 a 2016 | TECNICOS SANTOS</span>
+                                <p class="experiencia_descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias ipsam, error, cupiditate odit nesciunt excepturi sint obcaecati culpa reprehenderit nulla natus, corporis rerum expedita voluptatibus vero impedit doloremque.
+                                    Vitae, repellat.</p>
+                            </div>
+                        </div> -->
+
+                    </div>
+                </section>
+
+                <!--========== CERTIFICADOS ==========-->
+                <section class="certificado section" id="certificados">
+                    <h2 class="section-title">Cerfiticados</h2>
+
+                    <div class="certificado_container bd-grid">
+                        <div class="certificado_contenido">
+                            <h3 class="certificado_titulo">Certificado HTML5 2021 | Udemy</h3>
+                            <a href="https://www.udemy.com/certificate/UC-e668d3b1-c2bf-4e0e-bd84-a71802812346/" target="_blank"><p class="certificado_descripcion">Ver Certificado</p></a>
+                        </div>
+
+                        <div class="certificado_contenido">
+                            <h3 class="certificado_titulo">Certificado CSS 2021 | Udemy</h3>
+                            <a href="https://www.udemy.com/certificate/UC-861d85d0-88ee-4680-a794-8ab927dd5288/" target="_blank"><p class="certificado_descripcion">Ver Certificado</p></a>
+                        </div>
+                    </div>
+                </section>
+                <!--========== REFERENCES  ==========-->
+                <section class="referencia section" id="referencia">
+                    <h2 class="section-title">Proyectos</h2>
+
+                    <div class="referencia_container bd-grid">
+
+                        <div class="referencia_contenido bd-grid">
+                            <!-- <span class="referencia_subtitulo">cargo</span> -->
+                            <h3 class="referencia_titulo"> Desarrollador Front-End | Proyecto en Curso: Heladería Yofrosty </h3>
+                            <ul class="referencia_contacto">
+                                <!-- <li>Telefono: +58 </li> -->
+                                <li>Actualmente, estoy canalizando mi pasión por el desarrollo web y mi amor por los sabores dulces en un proyecto emocionante: la creación de una página web interactiva para una heladería. Este proyecto está siendo construido con las tecnologías más dulces del front-end: HTML, CSS y JavaScript.
+                                    Este proyecto no solo es una muestra de mis habilidades técnicas, sino también de mi capacidad para transformar una visión creativa en una realidad digital</li>
+                                <br>
+                                <a href="https://yofrosty.co/" target="_blank"><li>Ver Pagina</li></a>
+                            </ul>
+                        </div>
+
+                        <div class="referencia_contenido bd-grid">
+                            <!-- <span class="referencia_subtitulo">cargo</span> -->
+                            <h3 class="referencia_titulo">Desarrollador Front-End | Proyecto Destacado: Plataforma Inmobiliaria Sealuxecancun</h3>
+                            <ul class="referencia_contacto">
+                                <!-- <li>Telefono: +58 </li> -->
+                                <li style="text-align: justify;">Recientemente completé un proyecto desafiante donde desarrollé una página web robusta y multifuncional. Utilicé Bootstrap y Tailwind para el diseño responsive, asegurando una experiencia de usuario óptima en dispositivos de todos los tamaños.<br> La página cuenta con múltiples secciones, cada una meticulosamente codificada con HTML, CSS y JavaScript.
+                                    Uno de los aspectos más destacados del proyecto es la implementación de un sistema de cambio de idioma, permitiendo a los usuarios alternar entre español e inglés con facilidad. <br> Este proyecto no solo puso a prueba mis habilidades técnicas, sino que también reforzó mi capacidad para manejar proyectos complejos y multilingües.
+                                    Estoy orgulloso de haber entregado una solución web que no solo cumple con los requisitos funcionales sino que también ofrece una experiencia de usuario fluida y accesible.</li>
+                                <br>
+                                <a href="https://sealuxecancun.com" target="_blank"><li>Ver Pagina</li></a>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+                <!--========== LENGUAJES  ==========-->
+                <section class="lenguaje section">
+                    <h2 class="section-title">Lenguajes</h2>
+
+                    <div class="lenguaje_container">
+                        <ul class="lenguaje_contenido bd-grid">
+                            <li class="lenguaje_nombre">
+                                <span class="lenguaje_circulo"></span>Español - fluido
+                            </li>
+
+                            <li class="lenguaje_nombre">
+                                <span class="lenguaje_circulo"></span>English - basico
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+
+                <!--========== INTERESES  ==========-->
+                <section class="interes section">
+                    <h2 class="section-title">Intereses</h2>
+
+                    <div class="interes_container bd-grid">
+                        <div class="interes_contenido">
+                            <i class='bx bx-headphone interes_icono'></i>
+                            <span class="interes_nombre">Musica</span>
+                        </div>
+
+                        <div class="interes_contenido">
+                            <i class='bx bxs-book interes_icono'></i>
+                            <span class="interes_nombre">Leer</span>
+                        </div>
+
+                        <div class="interes_contenido">
+                            <i class='bx bx-code-alt interes_icono'></i>
+                            <span class="interes_nombre">Programar</span>
+                        </div>
+
+                        <div class="interes_contenido">
+                            <i class='bx bx-brain interes_icono'></i>
+                            <span class="interes_nombre">Conocimiento</span>
+                        </div>
+
+                        <div class="interes_contenido">
+                            <i class='bx bx-dumbbell interes_icono'></i>
+                            <span class="interes_nombre">Ejercicio</span>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- scroll top -->
+
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-up-arrow-alt scrolltop-icono'></i>
+    </a>
+
+    <!--html2pdf  -->
+    <script src="js/html2pdf.bundle.min.js"></script>
+    <!-- principal js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
